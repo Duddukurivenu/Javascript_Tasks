@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont{
+            background:linear-gradient( to bottom,rgb(155, 215, 155),rgb(193, 178, 150));
+            width:50vw;
+            padding:5vh;
+            padding-left: 300px;
+        }
+        button{
+            color:rgb(226, 211, 211);
+            background-color: #322f2f;
+            margin-left:12vw;
+            width:27vh;
+            padding: 1%;
+            border-radius: 10px;
+            
+        }
+        button:hover{
+            color:black;
+            background-color: #fff;
+            cursor: pointer;
+        }
+        input:focus{
+            background-color: #95b0c6 transparent;
+            border-radius: 3px;
+
+        }
+        input{
+            border: 2px solid rgb(212, 127, 28);
+            border-radius: 5px;
+        }
+        @keyframes animation {
+            0%{
+                transform: rotate(1turn);
+            }
+            100%{
+                transform: rotate(3turn);
+
+            }
+            
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="cont">
+    <label for="">Enter Your  1st Number :</label>
+    <input type="text" id="a" required>
+    <br>
+    <br>
+    <label for="">Enter Your 2nd Number:</label>
+    <input type="text" id="b" required>
+    <br>
+    <br>
+     <label for="">Enter Your 3rd Number:</label>
+    <input type="text" id="c" required>
+    <br>
+    <br>
+    <button onclick="venu()">ADD</button>
+</div>
+
+    <script type="text/javascript" src="task.js"></script>
+</body>
+</html>

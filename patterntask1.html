@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+//         123454321
+//          2345432
+//           34543
+//            454
+//             5
+        for(let i=1;i<=5;i++)
+        {
+            for (let s=1;s<i;s++){
+                document.write("&nbsp;&nbsp;")
+            }
+            for(let j=i;j<=5;j++){
+                document.write(j)
+            }
+            for(k=4;k>=i;k--){
+                document.write(k)
+            }
+            document.write("<br>")
+        } 
+
+
+//             543212345
+//              4321234
+//               32123
+//                212
+//                 1
+
+ document.write("<br>")
+  document.write("<br>")
+   document.write("<br>")
+        for(let i=5;i>=1;i--){
+            for(let s=5;s>i;s--){
+                document.write("&nbsp;&nbsp;")
+            }
+            for(let a=i;a>=1;a--){
+                document.write(a)
+            }
+            for(let k=2;k<=i;k++){
+                document.write(k)
+            }
+            document.write("<br>")
+        }
+
+    // 123454321
+    //  1234321
+    //   12321
+    //    121 
+    //     1     
+
+     document.write("<br>")
+      document.write("<br>")
+       document.write("<br>")
+let n=5
+let space=1
+ for(let i=n;i>=1;i--){
+     for(let m=1;m<space;m++){
+        document.write("&nbsp&nbsp")
+     }   
+    for(let j=1;j<i*2;j++){
+        if(j<=i){
+        document.write(j)
+        }
+        else
+        {
+        for(let l=j-2;l>=1;l--){
+                document.write(l)
+            }
+            break;
+            document.write("<br>")
+        }
+    }
+    document.write("<br>")
+    space+=1
+ }
+
+
+//  543212345
+//   5432345
+//    54345
+//     545
+//      5
+
+ document.write("<br>")
+  document.write("<br>")
+   document.write("<br>")
+let x=5
+let space1=1
+for(let k=1;k<x+1;k++){
+    for(let b=1;b<space1;b++){
+        document.write("&nbsp&nbsp")
+    }  
+    for(let m=5;m>=k;m--){
+        document.write(m)
+    }
+    for(let l=k+1;l<=x;l++){
+        document.write(l)
+
+    }
+     document.write("<br>")
+     space1+=1
+
+}
+
+ document.write("<br>")
+  document.write("<br>")
+   document.write("<br>")
+
+
+//         5
+//        545
+//       54345
+//     5432345
+//    543212345
+let s=5
+space=4
+for(let z=5;z>=1;z--){
+    for(let o=1;o<=space;o++){
+        document.write("&nbsp&nbsp")
+    }
+    for(let a=s*2-1;a>=1;a--){
+        if(a>=z){
+            for (let k=n;k>=z;k--){
+                document.write(k)
+                
+            }
+             break
+        }
+    
+    }
+    for(let o=z+1;o<=s;o++){
+        document.write(o)
+    }
+
+    document.write("<br>")
+    space-=1
+}
+
+
+
+
+
+
+    </script>
+</body>
+</html>
